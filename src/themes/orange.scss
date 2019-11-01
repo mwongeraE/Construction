@@ -1,0 +1,229 @@
+@import "./bootstrap-color.scss";
+// -------- Set of colors --------
+$color-light: #fef502;
+$color-default: #ffc107;
+$color-hover: #d39e00;
+$color-dark: #000;
+$color-blue: #003882;
+$color-white: #ffffff;
+
+// -------- Color for highlighting --------
+// Codes for Firefox:
+*::-moz-selection {
+  background-color: $color-default;
+  color: #ffffff;
+}
+
+// Codes for other Browsers
+*::selection {
+  background-color: $color-default;
+  color: #fff;
+}
+
+// -------- Header component --------
+.header .navbar {
+  a {
+    color: $color-blue !important;
+  }
+
+  .nav-active {
+    color: $color-light !important;
+  }
+
+  a:hover {
+    color: $color-dark !important;
+  }
+}
+
+// -------- Hero component --------
+.hero {
+  .h-separator {
+    border-color: $color-white;
+  }
+}
+
+// -------- Service component --------
+.service-card:hover {
+  h4 {
+    color: $color-blue;
+  }
+}
+
+// -------- Buttons ---------
+.btn-secondary {
+  background-color: $color-blue;
+  border-color: $color-blue;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: $color-white;
+  border-color: $color-blue;
+  color: $color-blue !important;
+}
+
+.btn-outline-secondary {
+  border-color: $color-white;
+}
+
+.btn-outline-secondary:hover {
+  background-color: $color-blue;
+  border-color: $color-blue;
+}
+
+// -------- About --------
+
+.about {
+  ul li:hover {
+    color: $color-blue;
+  }
+
+  .btn-secondary {
+    background-color: $color-blue;
+    border-color: $color-white;
+    color: #fff;
+  }
+
+  .btn-secondary:hover {
+    background-color: $color-white;
+    border-color: $color-blue;
+    color: $color-blue !important;
+  }
+}
+
+// -------- Parallax --------
+.theme-wrapper {
+  background: rgba($color-hover, 0.5);
+}
+
+// -------- Quote --------
+.quote {
+  .btn-secondary {
+    background-color: $color-blue;
+    border-color: $color-white;
+    color: $color-white;
+  }
+
+  .btn-secondary:hover {
+    background-color: #fff;
+    border-color: #fff;
+  }
+}
+
+// -------- Project --------
+.gallery-cat {
+  .badge-light:hover {
+    background-color: $color-blue;
+    border-color: #fff;
+    color: $color-blue;
+  }
+  .badge-secondary {
+    background-color: $color-blue;
+    color: $color-white;
+  }
+}
+
+// -------- News --------
+.news-thumbnail-hover {
+  background: rgba($color-default, 0.5);
+}
+
+.news-title:hover,
+.news-date p:hover {
+  color: $warning;
+}
+
+.news-date {
+  svg {
+    stroke: $warning;
+  }
+}
+
+// -------- Footer --------
+footer {
+  .opening,
+  .footer-contact {
+    svg {
+      stroke: $color-white;
+    }
+  }
+
+  .footer-social {
+    a {
+      border-color: $color-white !important;
+    }
+
+    a:hover {
+      background-color: $color-blue;
+      .fill-svg {
+        fill:white;
+      }
+      .stroke-svg {
+        stroke:white;
+      }
+    }
+  }
+}
+
+// -------- PageHeader --------
+.page-header {
+  h2 {
+    text-decoration-color: $color-white !important;
+  }
+}
+
+// -------- AboutCard --------
+.about-card {
+  border-color: $color-blue !important;
+
+  .about-card-title {
+    color: $color-blue !important;
+  }
+}
+
+// -------- ContactPage --------
+.contact-info {
+  .fill-color {
+    fill: $color-blue !important;
+  }
+  .stroke-color {
+    stroke: $color-blue !important;
+  }
+
+  a:hover {
+    .fill-svg {
+      fill: $color-blue !important;
+    }
+
+    .stroke-svg {
+      stroke: $color-blue !important;
+    }
+  }
+}
+
+// -------- List --------
+.list {
+  .svg {
+    svg {
+      fill: $color-blue !important;
+    }
+  }
+}
+
+// -------- PhotoViewer --------
+.photo-viewer {
+  img:hover {
+    background-color: $color-light !important;
+  }
+  .img-selected {
+    background-color: $warning !important;
+  }
+}
+
+// -------- CareersPage --------
+.careers-page {
+  .table tbody tr td:first-child {
+    color: $color-blue;
+  }
+}
+ 

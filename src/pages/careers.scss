@@ -1,0 +1,18 @@
+.careers-page {
+  .careers-content {
+    .careers-list {
+      list-style: none;
+      padding: 0px;
+    }
+
+    .btn {
+      padding: 10px 60px;
+      margin: 10px 0px;
+    }
+    .careers-btn-lnk:hover .btn {
+      background-color: #fff;
+      border-color: #003882;
+      color: #003882 !important;
+    }
+  }
+}

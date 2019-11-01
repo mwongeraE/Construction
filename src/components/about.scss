@@ -1,0 +1,28 @@
+.about {
+  background-color: #f0f3f4;
+
+  .about-content {
+    .btn {
+      padding: 10px 60px;
+      margin: 10px 0px;
+    }
+  }
+  @media screen and (max-width: 760px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+
+    .about-content {
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+      h2 {
+        text-align: center;
+      }
+
+      .about-btn-lnk {
+        align-self: center;
+      }
+    }
+  }
+}

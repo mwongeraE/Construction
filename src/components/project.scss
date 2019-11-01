@@ -1,0 +1,22 @@
+.project {
+  background: url("../images/polygon.png") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .gallery-cat {
+    margin-bottom: 10px;
+    .badge {
+      margin: 5px;
+      text-transform: uppercase;
+      cursor: default;
+    }
+
+    .badge-light:hover {
+      cursor: pointer;
+    }
+  }
+
+  .gallery {
+    margin: 0px auto;
+  }
+}

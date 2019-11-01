@@ -1,0 +1,130 @@
+@import "../themes/bootstrap-color.scss";
+footer {
+  background-image: url("../images/contact.jpg");
+  background-size: cover;
+  color: #fff;
+
+  .footer-wrapper {
+    margin-right: 0px;
+    background: rgba($color: #000, $alpha: 0.6);
+  }
+
+  hr {
+    border-color: rgba($color: #fff, $alpha: 0.6);
+    margin: 5px 0px;
+  }
+
+  .img-badge {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      width: 90px;
+      height: 100%;
+      margin: 5px 0px;
+    }
+  }
+
+  .footer-aboutus {
+    p {
+      text-align: center;
+      font-size: 0.8rem;
+    }
+
+    .opening {
+      margin-left: 40px;
+
+      svg {
+        height: 15px;
+        width: 15px;
+        margin: 0px 15px;
+      }
+    }
+  }
+
+  .footer-contact {
+    ul {
+      padding: 0px;
+      list-style: none;
+    }
+
+    .row {
+      flex-flow: nowrap;
+      margin: 10px 0px;
+    }
+
+    svg {
+      height: 20px;
+      width: 10px;
+      margin: 0px 5px;
+    }
+  }
+
+  #footer-address {
+    svg {
+      height: 2rem;
+      width: 2rem;
+    }
+  }
+
+  .footer-social {
+    .row{
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-bottom: 20px;
+    }
+
+    a {
+      padding: 7px 10px 9px;
+      margin-right: auto;
+      margin-left: auto;
+      border-width: 2px;
+      border-color: #fff;
+      border-style: solid;
+      border-radius: 50%;
+      color: #fff;
+    }
+
+    .fill-svg {
+      stroke-width: 0;
+      fill: #fff;
+    }
+
+    svg {
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  .opening {
+    margin-top: 2%;
+
+    .row{
+      margin-left: 40%;
+      margin-right: 40%;
+    }
+
+    svg {
+      margin-right: 20px;
+    }
+  }
+
+  .footer-credits {
+    margin: 0px;
+    padding: 20px;
+    color: $secondary;
+    font-size: 0.9rem;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+
+    a {
+      color: $secondary;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}

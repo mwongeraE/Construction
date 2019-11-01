@@ -13,11 +13,7 @@ import LinkedinSVG from "../assets/svg/linkedin.svg"
 const Footer = ({ siteMetadata }) => {
   const {
     title,
-    about,
-    email,
     social,
-    contact,
-    address,
     opening,
     author,
   } = siteMetadata
@@ -26,7 +22,7 @@ const Footer = ({ siteMetadata }) => {
       <section className="footer-wrapper">
         <Container className="footer-content">
           <Row className="section-md">
-            <Col className="footer-aboutus"className>
+            <Col className="footer-aboutus">
               <section className="footer-social">
                 <Row className="mb-2">
                   <a

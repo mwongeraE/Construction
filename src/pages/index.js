@@ -12,7 +12,6 @@ import Services from "../components/services"
 import About from "../components/about"
 import QuoteUs from "../components/quote"
 import Feature from "../components/feature"
-import News from "../components/news"
 
 const IndexPage = ({ data }) => {
   const { fullTitle, description, about } = data.site.siteMetadata

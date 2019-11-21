@@ -4,66 +4,73 @@ import "./partners.scss"
 
 import Service from "./partner"
 
-import Bulldozer from "../images/icons/icon-bulldozer-74x74.png"
-import Tassels from "../images/icons/icon-tassels-70x70.png"
-import Ruler from "../images/icons/icon-ruler-45x71.png"
+import HandShake from "../images/icons/hand-shake.png"
 
 const Services = () => {
   const card = [
     {
       title: `Yenigun`,
-      icon: Bulldozer,
-      description: `We provide high-quality construction services to the energy, water and telecommunications markets.`,
+      icon: HandShake,
+      description: `Construction project of the Douala stadium subject of the Contract No.0040/M/PR/MINMAP/2013`,
     },
     {
       title: `SA China CAMC Eng. Co. Ltd`,
-      icon: Tassels,
-      description: `Our team of experts has years of experience in remodeling homes including kitchens, basements etc.`,
+      icon: HandShake,
+      description: `Design, construction, supply, 
+      assembly and commissioning 
+      project for the foot plant and 
+      the delom-Pangar evacuation 
+      station duMarchéN 003 / LIB / EDC / DG / CEPPAHHLP / SPM 
+      `,
     },
     {
-      title: `Gregori int`,
-      icon: Ruler,
-      description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
+      title: `Gregori INT`,
+      icon: HandShake,
+      description: `project of the break of Gas in 
+      the framework of the 
+      construction of the stage of 
+      Douala Japoma 
+      `,
     },
     {
-      title: `LGCOC`,
-      icon: Bulldozer,
-      description: `We provide high-quality construction services to the energy, water and telecommunications markets.`,
+      title: `CGCOC`,
+      icon: HandShake,
+      description: `National rehabilitation project N ° 04. Lot N ° 01, Ebebda-Kalom Road`,
     },
     {
       title: `SINOMACH`,
-      icon: Tassels,
-      description: `Our team of experts has years of experience in remodeling homes including kitchens, basements etc.`,
+      icon: HandShake,
+      description: `Project of drinking water supply in the city of Yaounde and its surroundings starting from the Sanaga river (PAEPYS)`,
     },
     {
       title: `XIANHUA`,
-      icon: Ruler,
-      description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
+      icon: HandShake,
+      description: `China news Agency`,
     },
     {
-        title: `AFRIL ECAAFFAUDA GE`,
-        icon: Ruler,
-        description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
+        title: `AFRIK ECHAFFAUDA GE`,
+        icon: HandShake,
+        description: `Scaffolding works in new units of SONARA`,
     },
     {
         title: `PTS CONSTRUCTION SA`,
-        icon: Ruler,
-        description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
+        icon: HandShake,
+        description: ``,
     },
     {
         title: `China State Constrction Eng. Corp`,
-        icon: Ruler,
-        description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
+        icon: HandShake,
+        description: ``,
     },
     {
-        title: `WIETEC Cam Sarl`,
-        icon: Ruler,
-        description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
+        title: `WIETEC-CAM Sarl`,
+        icon: HandShake,
+        description: ``,
     },
     {
-        title: `TBEA Eng Contracting Co.`,
-        icon: Ruler,
-        description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
+        title: `TBEA Eng. Contracting Co.`,
+        icon: HandShake,
+        description: ``,
     },
   ]
   return (

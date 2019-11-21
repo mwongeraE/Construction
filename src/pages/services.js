@@ -4,73 +4,79 @@ import { Container, Row, Col } from "reactstrap"
 import PageHeader from "../components/pageHeader"
 import Service from "../components/service"
 
-import Bulldozer from "../images/icons/icon-bulldozer-74x74.png"
-import Tassels from "../images/icons/icon-tassels-70x70.png"
-import Ruler from "../images/icons/icon-ruler-45x71.png"
-import Suitcase from "../images/icons/icon-suitcase-73x57.png"
-import Relues from "../images/icons/icon-relues-63x64.png"
-import Helmet from "../images/icons/icon-helmet-67x65.png"
+import truck from "../images/icons/truck.png"
+import painter from "../images/icons/painter.png"
+import stair from "../images/icons/stair.png"
+import map from "../images/icons/map.png"
+import blueprint from "../images/icons/blueprint.png"
+import environment from "../images/icons/environment.png"
+import work from "../images/icons/work.png"
+import water from "../images/icons/water.png"
+import power from "../images/icons/power.png"
+import powerplant from "../images/icons/power-plant.png"
+import molecule from "../images/icons/molecular.png"
+import dig from "../images/icons/dig.png"
 
 const ServicesPage = () => {
   const card = [
     {
       title: `Construction`,
-      icon: Bulldozer,
+      icon: work,
       description: `We provide high-quality construction services to the energy, water and telecommunications markets.`,
     },
     {
       title: `Remodeling`,
-      icon: Tassels,
+      icon: painter,
       description: `Our team of experts has years of experience in remodeling homes including kitchens, basements etc.`,
     },
     {
       title: `Interior Design`,
-      icon: Ruler,
+      icon: stair,
       description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
     },
     {
       title: `Contracting`,
-      icon: Suitcase,
+      icon: map,
       description: `Top Project can manage and hire subcontractors while acting as the main contact with construction clients.`,
     },
     {
       title: `Preconstruction`,
-      icon: Relues,
+      icon: blueprint,
       description: `Preconstruction involves performing preliminary planning and engineering in order to define the project.`,
     },
     {
       title: `Environment`,
-      icon: Helmet,
+      icon: environment,
       description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
     },
     {
       title: `Transport Infrastructure`,
-      icon: Suitcase,
+      icon: truck,
       description: `Top Project can manage and hire subcontractors while acting as the main contact with construction clients.`,
     },
     {
       title: `Water Infrastructure`,
-      icon: Relues,
+      icon: water,
       description: `Preconstruction involves performing preliminary planning and engineering in order to define the project.`,
     },
     {
       title: `Renewable and Nuclear energy`,
-      icon: Helmet,
+      icon: power,
       description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
     },
     {
       title: `Oil and gas`,
-      icon: Helmet,
+      icon: powerplant,
       description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
     },
     {
       title: `Project and financial Management`,
-      icon: Helmet,
+      icon: molecule,
       description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
     },
     {
       title: `Mining and functional facilities`,
-      icon: Helmet,
+      icon: dig,
       description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
     },
   ]

@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Project from "../components/project"
-import Services from "../components/services"
+import Partners from "../components/partners"
 
 const ProjectPage = ({ data }) => {
   return (
@@ -11,7 +11,9 @@ const ProjectPage = ({ data }) => {
         title="Completed Projects"
         projects={data.allProjectsJson.edges}
       />
-      <Services />
+      <Partners 
+      title="Our partners"
+      />
     </>
   )
 }

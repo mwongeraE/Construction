@@ -49,7 +49,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="layout">
+    <div className="layout"> 
       <Header siteTitle={data.site.siteMetadata.title} logo={brandLogo} />
       <main>{children}</main>
       <Footer siteMetadata={data.site.siteMetadata} />

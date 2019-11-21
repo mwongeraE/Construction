@@ -39,7 +39,37 @@ const ServicesPage = () => {
       description: `Preconstruction involves performing preliminary planning and engineering in order to define the project.`,
     },
     {
-      title: `Green Building`,
+      title: `Environment`,
+      icon: Helmet,
+      description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
+    },
+    {
+      title: `Transport Infrastructure`,
+      icon: Suitcase,
+      description: `Top Project can manage and hire subcontractors while acting as the main contact with construction clients.`,
+    },
+    {
+      title: `Water Infrastructure`,
+      icon: Relues,
+      description: `Preconstruction involves performing preliminary planning and engineering in order to define the project.`,
+    },
+    {
+      title: `Renewable and Nuclear energy`,
+      icon: Helmet,
+      description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
+    },
+    {
+      title: `Oil and gas`,
+      icon: Helmet,
+      description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
+    },
+    {
+      title: `Project and financial Management`,
+      icon: Helmet,
+      description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
+    },
+    {
+      title: `Mining and functional facilities`,
       icon: Helmet,
       description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
     },

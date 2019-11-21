@@ -20,10 +20,10 @@ const AboutPage = () => {
   const { title, fullTitle } = data.site.siteMetadata
 
   const aboutContent = [
-    `ORTHO SERVICE is a multinational Represented so far in four African countries (Cameroon, Nigeria, Benin and Togo), the United Arab Emirates with an office in Dubai and will soon ouvert has office in China design. `,
-    `We encourage companies and countries around the world we operate in qui to responds to national and international calls for tenders lancé in the framework of the realization of major projects Existing today in Sub-Saharan Africa.`,
-    `Our office, Guarantees to all our partners a perfect setting for the job, discretion and full-time holder of engineers with a good knowledge of the field and Its qui realities are very different Often in different environments.`,
-    `We provide our partners with a follow-up qui Gives us a good reputation in terms of success in cases related to national or international tenders for qui, companies, monitored by ORTHO SERVICES tendered.`,
+    `ORTHO SERVICE is a multinational represented so far in four African countries (Cameroon, Nigeria, Benin and Togo), the United Arab Emirates with an office in Dubai and will soon open a design office in China.`,
+    `We encourage companies around the world and countries in which we operate to respond to national and international calls for tenders launched in the framework of the realization of major projects existing today in Sub-Saharan Africa.`,
+    `Our office guarantees to all our partners a perfect setting for the job, discretion and full-time support of engineers with a good knowledge of the field and its realities which are very often different in different environments.`,
+    `We provide our partners with a follow-up which gives us a good reputation in terms of success in cases related to national or international tenders for which, companies, are monitored by ORTHO SERVICES tendered.`,
   ]
   return (
     <section id="about">
@@ -48,19 +48,9 @@ const AboutPage = () => {
             <Col md="6">
               <AboutCard title="Mission">
                 <p>
-                  <strong>{fullTitle} </strong>Founded in 2010 , Ortho Services
-                  is a young trading company in charge of study and achievement
-                  in road-construction building -Work of hydroelectric dams.
-                  Our goal is to support companies in their ability to respond
-                  to calls for national and international tenders, to ride their
-                  bidding documents (DAO), to ensure the study and monitoring.
-                  But even more, we provide the perfect outsourcing to our clients
-                  to support them in the process of realization of construction works,
-                  small, medium or large.
-                  We work with engineering and technical courses for high achievement
-                  height and extensive work. We operate in the motivation that we give
-                  to local and international companies to meet current needs work. 
-
+                  <strong>{fullTitle} </strong>
+                  Fondée en 2010, Ortho Services est une jeune entreprise commercial, chargée d’étude et de réalisation en Bâtiment –travaux routiers-chantier de barrages hydro électrique. Notre But est d’accompagner des entreprises dans leur capacité à répondre aux appels d’offres nationaux et internationaux, à monter leur Dossier d’Appel d’Offres (D.A.O), à en assurer l’étude et le suivi. Mais plus encore, nous assurons une parfaite sous-traitance auprès de nos clients afin de les soutenir dans le processus de réalisation de travaux de chantier, petit, moyen ou grande envergure.
+                  Nous travaillons avec des ingénieurs et des techniciens de terrains à la hauteur de grande réalisation et de travaux d’envergure. Nous œuvrons dans la motivation que nous donnons aux entreprises locales ou internationales de répondre aux besoins actuels en matière de travaux. 
                   <br/>
                   </p>
               </AboutCard>
@@ -68,21 +58,21 @@ const AboutPage = () => {
             <Col md="6">
               <AboutCard title="Objective">
                 <p>
-                  Ortho AIMS providing good services at medium and long term assurance
-                  to local and foreign companies and aussi the Ability to Complete
-                  the work and Promote the exchange of experience in the provision 
-                  of services and new technology in Africa. Africa continent of being  
-                  white has wide project, we invite companies Who are reliable to Demonstrate 
-                  Their expertise and contribuer to the development, to trust 
-                  in us and Become our partner in the realization of this development. 
-                  Ortho-have services Chosen to icts workaround organizes a central 
+                  Ortho services  aims at providing medium and long term assurance
+                  to local and foreign companies and also the ability to complete
+                  the work. We promote the exchange of experiences in the provision 
+                  of services and new technology in Africa. Africa being a continent
+                  of wide projects, we invite companies who are able to demonstrate their
+                  expertise and contribute to its development. They can trust 
+                  in us and become our partner in the realization of this development. 
+                  Ortho-Services has chosen to organize its work around a central 
                   concept: That of performance.
 
-                  Beyond the provision of services Commonly secure, we propose to you a real 
-                  process of building, oriented operational year cooperation
-                  relationship qui will be sustainable, equitable and respectful through, 
-                  out Each course of your project. We analyze your needs so you
-                  expect to target your focus.
+                  Beyond the provision of services, commonly secure, we propose to you a real 
+                  process of building an oriented operational cooperation
+                  relationship which will be sustainable, equitable and respectful through-out
+                  each course of your project. We analyze your needs so as to target your exact 
+                  expectations.
                 </p>
               </AboutCard>
               

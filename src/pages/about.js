@@ -23,7 +23,7 @@ const AboutPage = () => {
     `ORTHO SERVICE is a multinational represented so far in four African countries (Cameroon, Nigeria, Benin and Togo), the United Arab Emirates with an office in Dubai and will soon open a design office in China.`,
     `We encourage companies around the world and countries in which we operate to respond to national and international calls for tenders launched in the framework of the realization of major projects existing today in Sub-Saharan Africa.`,
     `Our office guarantees to all our partners a perfect setting for the job, discretion and full-time support of engineers with a good knowledge of the field and its realities which are very often different in different environments.`,
-    `We provide our partners with a follow-up which gives us a good reputation in terms of success in cases related to national or international tenders for which, companies, are monitored by ORTHO SERVICES tendered.`,
+    `We provide our partners with a follow-up which gives us a good reputation in terms of success in cases related to national or international tenders for which, companies, are monitored by ORTHO SERVICES.`,
   ]
   return (
     <section id="about">
@@ -49,8 +49,8 @@ const AboutPage = () => {
               <AboutCard title="Mission">
                 <p>
                   <strong>{fullTitle} </strong>
-                  Fondée en 2010, Ortho Services est une jeune entreprise commercial, chargée d’étude et de réalisation en Bâtiment –travaux routiers-chantier de barrages hydro électrique. Notre But est d’accompagner des entreprises dans leur capacité à répondre aux appels d’offres nationaux et internationaux, à monter leur Dossier d’Appel d’Offres (D.A.O), à en assurer l’étude et le suivi. Mais plus encore, nous assurons une parfaite sous-traitance auprès de nos clients afin de les soutenir dans le processus de réalisation de travaux de chantier, petit, moyen ou grande envergure.
-                  Nous travaillons avec des ingénieurs et des techniciens de terrains à la hauteur de grande réalisation et de travaux d’envergure. Nous œuvrons dans la motivation que nous donnons aux entreprises locales ou internationales de répondre aux besoins actuels en matière de travaux. 
+                  Founded in 2010 , Ortho Services is a young trading company in charge of study and achievement in road-construction hydro electric dams -Work Building. Our goal is to support companies in their ability to respond to calls for national and international tenders, to ride their bidding documents (DAO), to ensure the study and monitoring. But even more, we provide the perfect outsourcing to our clients to support them in the process of realization of construction works, small, medium or large.
+                  We work with engineering and technical courses at the height of great achievement and extensive work. We operate in the motivation that we give to local and international companies to meet current needs work. 
                   <br/>
                   </p>
               </AboutCard>

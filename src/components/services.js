@@ -21,27 +21,27 @@ const Services = () => {
     {
       title: `Mining and Functional facilities`,
       icon: dig,
-      description: `Our team of experts has years of experience in remodeling homes including kitchens, basements etc.`,
+      description: `Our team of experts has years of experience in mining and providing functional facilities.`,
     },
     {
       title: `Oil and Gas`,
       icon: powerplant,
-      description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
+      description: `Our in depth knowledge and robust technology allow us to provide innovative solutions to our clients.`,
     },
     {
       title: `Transport Infrastructure`,
       icon: truck,
-      description: `We provide high-quality construction services to the energy, water and telecommunications markets.`,
+      description: `We provide reliable infrastructure and services to our clients. This involves provision of machinery and other needs. `,
     },
     {
       title: `Water Infrastructure`,
       icon: water,
-      description: `Our team of experts has years of experience in remodeling homes including kitchens, basements etc.`,
+      description: `We provide a number of services: water supply, treatment, storage water resource management and hydropower`,
     },
     {
       title: `Renewable and Nuclear energy`,
       icon: power,
-      description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
+      description: `We provide reliable and efficient ways of building and sustaining renewable energy to our clients`,
     },
   ]
   return (

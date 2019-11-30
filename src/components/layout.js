@@ -15,7 +15,7 @@ import "./layout.scss"
 
 import brandLogo from "../images/orthologo.jpg"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, t, i18n }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -49,7 +49,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="layout"> 
+    <div className="layout">
       <Header siteTitle={data.site.siteMetadata.title} logo={brandLogo} />
       <main>{children}</main>
       <Footer siteMetadata={data.site.siteMetadata} />
@@ -61,4 +61,4 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default (Layout)

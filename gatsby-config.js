@@ -3,6 +3,7 @@ module.exports = {
     title: `Ortho Services`,
     fullTitle: `ORTHO SERVICES`,
     description: `Listen better | Plan better | Build better.`,
+    activity: `ORTHO SERVICE is a research firm specializing in the field of assistance to businesses to major road works, construction of buildings, bridges and dams constructions of hydroelectric and many other areas.`,
     about: `The competence of our partner companies in order to ensure that the services we render are up to your expectations of treatment and reliability of our services and the way they are being followed up.`,
     email: `info@ortho-services.com`,
     social: {
@@ -52,6 +53,13 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        // add relative path to your layout component
+        component: `${__dirname}/src/components/layout.js`
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

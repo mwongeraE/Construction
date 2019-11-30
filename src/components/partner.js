@@ -1,7 +1,7 @@
 import React from "react"
 import "./partner.scss"
 
-const Service = ({ services }) => {
+const Partner = ({ services }) => {
   const { title, icon, description } = services
   return (
     <div className="partner-card">
@@ -14,4 +14,4 @@ const Service = ({ services }) => {
   )
 }
 
-export default Service
+export default Partner

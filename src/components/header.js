@@ -59,7 +59,7 @@ class Header extends Component {
                     activeStyle={{ fontWeight: "bold" }}
                     to="/services/#services"
                   >
-                    Services
+                    Services & Activities
                   </Link>
                 </NavItem>
                 <NavItem>

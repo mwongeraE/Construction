@@ -1,8 +1,10 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
+import "./services.scss"
 
 import PageHeader from "../components/pageHeader"
 import Service from "../components/service"
+import Activities from "../components/activities"
 
 import truck from "../images/icons/truck.png"
 import painter from "../images/icons/painter.png"
@@ -16,6 +18,7 @@ import power from "../images/icons/power.png"
 import powerplant from "../images/icons/power-plant.png"
 import molecule from "../images/icons/molecular.png"
 import dig from "../images/icons/dig.png"
+
 
 const ServicesPage = () => {
   const card = [
@@ -82,7 +85,7 @@ const ServicesPage = () => {
   ]
   return (
     <section id="services">
-      <PageHeader title="Services" />
+      <PageHeader title="Services & Activities" />
       <section className="services">
         <Container>
           <Row>
@@ -96,6 +99,9 @@ const ServicesPage = () => {
           </Row>
         </Container>
       </section>
+      <Activities 
+      title="Our Activities"
+      />
     </section>
   )
 }

@@ -5,7 +5,7 @@ module.exports = {
     description: `Listen better | Plan better | Build better.`,
     activity: `ORTHO SERVICE is a research firm specializing in the field of assistance to businesses to major road works, construction of buildings, bridges and dams constructions of hydroelectric and many other areas.`,
     about: `The competence of our partner companies in order to ensure that the services we render are up to your expectations of treatment and reliability of our services and the way they are being followed up.`,
-    email: `info@ortho-services.com`,
+    email: `orthocommunication@gmail.com`,
     social: {
       facebook: `https://facebook.com/`,
       twitter: `https://twitter.com/`,
@@ -13,8 +13,8 @@ module.exports = {
       linkedin: `https://linkedin.com/in/`,
     },
     contact: {
-      mobile: `+237 242 82 29 67 `,
-      telephone: `M: 230 403 4343 / D: + 230 403 4370 `,
+      mobile: `+237 654 247 750 `,
+      telephone: `M: 673 435 815 / D: 698 306 255 `,
       
     },
     address: `Yaounde Omnisport., Derière stage ahmadou, ahidjo`,
@@ -41,7 +41,7 @@ module.exports = {
       position: `Full Stack Developer`,
       email: `mwongera100@gmail.com`,
       contact: `(+254)-714-017-200`,
-      website: `https://markdino.github.io/portfolio`,
+      website: `https://github.com/mwongeraE`,
     },
   },
   plugins: [

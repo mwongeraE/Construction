@@ -7,17 +7,12 @@ import Service from "../components/service"
 import Activities from "../components/activities"
 
 import truck from "../images/icons/truck.png"
-import painter from "../images/icons/painter.png"
-import stair from "../images/icons/stair.png"
 import map from "../images/icons/map.png"
 import blueprint from "../images/icons/blueprint.png"
 import environment from "../images/icons/environment.png"
 import work from "../images/icons/work.png"
 import water from "../images/icons/water.png"
-import power from "../images/icons/power.png"
-import powerplant from "../images/icons/power-plant.png"
 import molecule from "../images/icons/molecular.png"
-import dig from "../images/icons/dig.png"
 
 
 const ServicesPage = () => {

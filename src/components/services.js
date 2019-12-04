@@ -5,11 +5,8 @@ import "./services.scss"
 import Service from "./service"
 
 import work from "../images/icons/work.png"
-import dig from "../images/icons/dig.png"
-import powerplant from "../images/icons/power-plant.png"
 import truck from "../images/icons/truck.png"
 import water from "../images/icons/water.png"
-import power from "../images/icons/power.png"
 
 const Services = () => {
   const card = [
@@ -17,16 +14,6 @@ const Services = () => {
       title: `Construction`,
       icon: work,
       description: `We provide high-quality construction services to the energy, water and telecommunications markets.`,
-    },
-    {
-      title: `Mining and Functional facilities`,
-      icon: dig,
-      description: `Our team of experts has years of experience in mining and providing functional facilities.`,
-    },
-    {
-      title: `Oil and Gas`,
-      icon: powerplant,
-      description: `Our in depth knowledge and robust technology allow us to provide innovative solutions to our clients.`,
     },
     {
       title: `Transport Infrastructure`,
@@ -37,11 +24,6 @@ const Services = () => {
       title: `Water Infrastructure`,
       icon: water,
       description: `We provide a number of services: water supply, treatment, storage water resource management and hydropower`,
-    },
-    {
-      title: `Renewable and Nuclear energy`,
-      icon: power,
-      description: `We provide reliable and efficient ways of building and sustaining renewable energy to our clients`,
     },
   ]
   return (

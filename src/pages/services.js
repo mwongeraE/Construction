@@ -28,16 +28,6 @@ const ServicesPage = () => {
       description: `We provide high-quality construction services to the energy, water and telecommunications markets.`,
     },
     {
-      title: `Remodeling`,
-      icon: painter,
-      description: `Our team of experts has years of experience in remodeling homes including kitchens, basements etc.`,
-    },
-    {
-      title: `Interior Design`,
-      icon: stair,
-      description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
-    },
-    {
       title: `Contracting`,
       icon: map,
       description: `Top Project can manage and hire subcontractors while acting as the main contact with construction clients.`,
@@ -63,23 +53,8 @@ const ServicesPage = () => {
       description: `Preconstruction involves performing preliminary planning and engineering in order to define the project.`,
     },
     {
-      title: `Renewable and Nuclear energy`,
-      icon: power,
-      description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
-    },
-    {
-      title: `Oil and gas`,
-      icon: powerplant,
-      description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
-    },
-    {
       title: `Project and financial Management`,
       icon: molecule,
-      description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
-    },
-    {
-      title: `Mining and functional facilities`,
-      icon: dig,
       description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
     },
   ]
